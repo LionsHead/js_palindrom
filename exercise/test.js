@@ -14,5 +14,6 @@ describe('isPalindrome', () => {
   it('is not a palindrome', () => {
     assert.equal(false, isPalindrome('palindrome'));
     assert.equal(false, isPalindrome('aashgkhdj'));
+    assert.equal(false, isPalindrome(''));
   });
 });
