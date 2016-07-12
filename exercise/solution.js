@@ -1,7 +1,5 @@
 // BEGIN (write your solution here)
 const isPalindrome = (string) => {
-  // return string === string.split('').reverse().join('');
-
   if (string.length <= 1) {
     return true;
   }
