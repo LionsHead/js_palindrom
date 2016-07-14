@@ -5,15 +5,15 @@ import isPalindrome from './solution';
 
 describe('isPalindrome', () => {
   it('is palindrome', () => {
-    assert.equal(true, isPalindrome('absba'));
-    assert.equal(true, isPalindrome('radar'));
-    assert.equal(true, isPalindrome('a'));
-    assert.equal(true, isPalindrome('404'));
+    assert.equal(isPalindrome('absba'), true);
+    assert.equal(isPalindrome('radar'), true);
+    assert.equal(isPalindrome('a'), true);
+    assert.equal(isPalindrome('404'), true);
   });
 
   it('is not a palindrome', () => {
-    assert.equal(false, isPalindrome('palindrome'));
-    assert.equal(false, isPalindrome('aashgkhdj'));
-    assert.equal(false, isPalindrome(''));
+    assert.equal(isPalindrome('palindrome'), false);
+    assert.equal(isPalindrome('aashgkhdj'), false);
+    assert.equal(isPalindrome(''), false);
   });
 });
